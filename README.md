@@ -3,7 +3,11 @@
 > 3D Wireframe Renderer | **42Heilbronn**  
 > Developed by [Levent Akdogan](https://github.com/lakdogan)
 
-![FDF Preview](path_to_your_screenshot.png)
+[FDF Preview]
+<img width="1250" alt="Screenshot 2025-02-23 at 20 42 27" src="https://github.com/user-attachments/assets/d659cd98-e06e-40a5-aabf-70fac2ad752b" />
+<img width="839" alt="Screenshot 2025-02-23 at 20 44 48" src="https://github.com/user-attachments/assets/1cfef2ed-bb76-4bde-bd61-81593659f70b" />
+
+
 
 ---
 
