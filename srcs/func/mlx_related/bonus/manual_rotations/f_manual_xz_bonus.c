@@ -1,0 +1,30 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   f_manual_xz_bonus.c                                :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: lakdogan <lakdogan@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/02/18 15:03:16 by lakdogan          #+#    #+#             */
+/*   Updated: 2025/02/22 08:22:26 by lakdogan         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "./../inc/fdf_bonus.h"
+
+int	keyhook_xz_rotations(t_data *data, int keycode)
+{
+	if (keycode == KEYC)
+	{
+		rotate_xz_axis_minus(data);
+		mlx_destroy_image(data->graphics.mlx_ptr, data->graphics.img);
+		print_mapv_mlx(data);
+	}
+	if (keycode == KEYV)
+	{
+		rotate_xz_axis_plus(data);
+		mlx_destroy_image(data->graphics.mlx_ptr, data->graphics.img);
+		print_mapv_mlx(data);
+	}
+	return (0);
+}
