@@ -113,10 +113,11 @@ This will create the `fdf` and `fdf_bonus` executables.
 `.fdf` files are grids of integers representing altitude at each point, and optionally include color values. Example:
 
 ```
-0  0  0  0
-0 4,0xFF0000 4,0x00FF00  0
-0 4 4  0
-0  0  0  0
+0 0  0  0  0 0
+0 0 4,0xFF0000 4,0x00FF00  0 0
+0 0 4 4  0 0
+0 0  0  0  0 0
+0 0  0  0  0 0
 ```
 <img width="442" alt="Screenshot 2025-02-23 at 20 36 56" src="https://github.com/user-attachments/assets/56aa9247-896b-46fa-a003-b830ac873796" />
 
