@@ -1,4 +1,4 @@
-# 📊 FDF – *fil de fer* – Wireframe Project
+# 📊 FDF – *fil de fer* – Wireframe Project (Compatible for MacOS only)
 
 > 3D Wireframe Renderer | **42Heilbronn**  
 > Developed by [Levent Akdogan](https://github.com/lakdogan)
